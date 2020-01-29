@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from random import randint
 
 app = Flask(__name__)
 
@@ -9,6 +10,10 @@ def index():
 		return jsonify({"msg": posted_json,"status":"ok"})
 	else:
 		return jsonify({"status":"error"})
+
+@app.route('/random', methods=['GET'])
+def getRandom():
+	return jsonify({"status":"ok","number":randint(0,100)})
 
 
 if __name__ == '__main__':

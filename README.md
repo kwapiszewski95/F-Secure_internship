@@ -10,10 +10,10 @@ python simple_flask.py
 
 Usage:
 	get random value:
-	curl http://127.0.0.1:5000/random
+	'curl http://127.0.0.1:5000/random'
 
 	Send and receive JSON:
-	curl -X POST -H "Content-Type: application/json" -d '{"username":"abc","password":"abc"}' http://127.0.0.1:5000
+	'curl -X POST -H "Content-Type: application/json" -d '{"username":"abc","password":"abc"}' http://127.0.0.1:5000'
 
 OR
 	use Postman (chrome add-on)

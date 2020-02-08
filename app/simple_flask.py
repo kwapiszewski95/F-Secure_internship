@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST'])
 def index():
-	if not request.is_json:
+	if request.is_json:
 		posted_json = request.get_json(force=True)
 		return jsonify({"msg": posted_json,"status":"ok"})
 	else:

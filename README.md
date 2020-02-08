@@ -10,15 +10,11 @@ python simple_flask.py
 
 Usage /random endpoint (get random value):
 	
-	```
 	curl http://127.0.0.1:5000/random
-	```
 
 Usage /echo endpoint (send and reveive JSON):
 
 	
-	```
 	curl -X POST -H "Content-Type: application/json" -d '{"username":"abc","password":"abc"}' http://127.0.0.1:5000
-	```
 
 OR use Postman (chrome add-on)

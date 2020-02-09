@@ -1,0 +1,4 @@
+The best practise is to store database credentials (or other confidential data, as certificates, private keys, etc.) in local .config file. This file should be added to .gitignore, or stored in separate location that project. 
+
+Other possible way is to make usage of "Docker secrets":
+https://docs.docker.com/engine/swarm/secrets/

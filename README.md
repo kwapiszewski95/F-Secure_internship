@@ -1,6 +1,6 @@
 <h1>Readme</h1>
 
-Note from author: I was not able to continue with Docker-related tasks, due to some problems with virtual machine I'm using. Also time for solving those exercises wasn't best for me because of exam session on University (my last two exams are on Monday). 
+Note from author: I was not able to continue with Docker-related tasks, due to some problems with virtual machine I'm using and no time to dig into this. Currently I'm moving back to Poland (I was on Erasmsu student exchange), I had my exams and all papers to deal with. 
 Despite that I hope you will give me a chance and invite me for interview - you won't be disappointed :)
 
 <h2>Simple app</h2>
